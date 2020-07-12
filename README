@@ -1,0 +1,12 @@
+For Cheng Han's (Reading University, 2020) MSc project.
+
+Requirements, these python packages need to be installed: pcse, netcdf4, matplotlib
+
+run_wofost.py can be run to write data from netcdf files into cabo weather files
+and then to run the PCSE WOFOST crop model itself. It prints final yeild and plots
+two WOFOST outputs to check it is running properly.
+
+PCSE_WOFOST_helpers.py contains functions that are imported in run_wofost.py
+
+Hengshui.soil, maize.yaml and timer_china_maize.amgt contain soil, crop and crop timing
+information used by PCSE WOFOST.
