@@ -15,10 +15,10 @@ from pcse.fileinput import YAMLCropDataProvider
 
 #=========== Opening the nc file and writing the CABO files =========
 
-# Where the nc data files are
-input_directory = "/data/WOFOST_weather_data/era5/MSc_examples/"
-# Where the weather text file will be written
-cabo_directory = "./"
+# Where the nc data files are, change this to the location you have your data
+input_directory = "data/"
+# Where the weather text file will be written. Make sure this directory exists
+cabo_directory = "cabo/"
 
 # Read the data from the nc files. Each file contains one parameter
 nc_files = {
